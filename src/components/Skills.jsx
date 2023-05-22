@@ -5,7 +5,7 @@ import Skill from "./Skill";
 const Skills = () => {
   const [currSkill, setCurrSkill] = useState("");
   return (
-    <div>
+    <div className="h-[110vh]">
       <div className="w-full py-16 px-4">
         <p className="text-[#00df9a] font-b text-center md:text-4xl sm:text-3xl text-2xl">
           SKILLS
@@ -31,8 +31,10 @@ const Skills = () => {
               ))}
             </div>
             <div className="w-full py-16 px-4">
-              <div className="">
-                <h3 className="md:text-3xl sm:text-2xl text-xl text-center text-white font-c ">{currSkill}</h3>
+              <div className="bg-white opacity-30">
+                <h3 className="text-black md:text-3xl sm:text-2xl text-xl text-center font-c ">
+                  {currSkill}
+                </h3>
               </div>
             </div>
           </div>

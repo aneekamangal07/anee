@@ -1,10 +1,14 @@
 import React from "react";
 import Typed from "react-typed";
+import eclipse from "../images/Eclipse.svg"
 
 const Hero = () => {
   return (
-    <div>
+    <div className="h-[100vh]">
       <div className="text-white max-w-[800px] mt-[100px] w-full h-screen mx-auto text-center">
+        <div className="bg-none opacity-60 absolute top-0 left-0">
+          <img src={eclipse} alt="" />
+        </div>
         <h1 className="md:text-9xl sm:text-7xl text-6xl font-e font-bold md:py-6">
           Aneeka Mangal
         </h1>

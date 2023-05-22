@@ -1,12 +1,23 @@
 import React from "react";
-import anee from "../images/anee.jpg"
+import anee from "../images/anee.jpg";
+import eclipse2 from "../images/Eclipse2.svg";
+
 const Overview = () => {
   return (
     <div>
-      <div className="w-full py-16 px-4">
-        <p className="text-[#00df9a] font-b text-center md:text-4xl sm:text-3xl text-2xl">ABOUT</p>
-        <div className="max-w-[1240px] mx-auto grid md:grid-cols-2">
-          <img className="w-[300px] mx-auto my-4 rounded-[50%]" src={anee} alt="" />
+      <div className="w-full h-[70vh] relative">
+        <p className="p-4 text-[#00df9a] font-b text-center md:text-4xl sm:text-3xl text-2xl">
+          ABOUT
+        </p>
+        <div className="absolute">
+          <img src={eclipse2} alt="" />
+        </div>
+        <div className="max-w-[1240px] mx-auto grid md:grid-cols-2 absolute">
+          <img
+            className="w-[300px] mx-auto my-4 rounded-[50%]"
+            src={anee}
+            alt=""
+          />
           <div className="flex flex-col justify-center font-c py-6 text-white">
             <h1 className="md:text-3xl sm:text-2xl text-xl font-bold py-2">
               Here's a little something about me!
