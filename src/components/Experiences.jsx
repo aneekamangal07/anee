@@ -13,7 +13,6 @@ const Experiences = () => {
       <div>
         <section
           className={`flex flex-col justify-center items-center `}
-          id="Skills"
         >
           <div className={`w-full py-[20px] px-4`}>
             <div className="max-w-[1240px] mx-auto grid md:grid-cols-3 gap-8">

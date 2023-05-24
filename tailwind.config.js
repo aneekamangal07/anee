@@ -11,6 +11,9 @@ module.exports = {
         e: ["Melodrama"],
         f: ["Nunito"],
       },
+      backgroundImage: {
+        'bg-contact': "url('/images/bg-contact.svg')",
+      }
     },
   },
   plugins: [],

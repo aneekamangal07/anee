@@ -12,10 +12,7 @@ const Skills = () => {
         </p>
       </div>
       <div>
-        <section
-          className={`flex flex-col justify-center items-center`}
-          id="Skills"
-        >
+        <section className={`flex flex-col justify-center items-center`}>
           <div className={`flex flex-col`}>
             <div className="flex flex-row flex-wrap w-[70vw] justify-center">
               {icons.map((icon) => (
