@@ -6,12 +6,12 @@ import eclipse3 from "../images/Eclipse3.svg";
 
 const Contact = () => {
   return (
-    <div className="w-full h-[100vh] flex align-center justify-center py-8">
+    <div className="w-full h-[100vh] py-8">
       <div className="py-4">
         <p className="text-[#00df9a] font-b text-center md:text-4xl sm:text-3xl text-2xl">
           CONTACT
         </p>
-        <div className="pt-[100px] relative">
+        <div className="pt-[100px]">
           <div className="py-16 text-white tracking-widest text-center flex flex-col justify-center items-center m-auto">
             <a
               href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSDbtmMJWHgvrLQQLvsRgGbwBnvsJmLZFHtzNhXHcKqGtFckmWDMkGsCHlrfmbSqHDNwjbzh"
@@ -23,7 +23,7 @@ const Contact = () => {
             <h1 className="p-4">LET'S TALK!</h1>
             <h2 className="font-bold ">aneekamangal@gmail.com</h2>
           </div>
-          <div className="flex absolute align-center justify-center py-4">
+          <div className="flex align-center justify-center py-4">
             {/* socials */}
             <SocialIcon
               className="hover:cursor-pointer hover:scale-150 duration-300"
@@ -50,9 +50,9 @@ const Contact = () => {
           </div>
         </div>
       </div>
-      <div className="absolute">
+      {/* <div className="relative">
         <img src={eclipse3} alt="" />
-      </div>
+      </div> */}
     </div>
   );
 };

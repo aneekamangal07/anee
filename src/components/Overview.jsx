@@ -5,20 +5,20 @@ import eclipse2 from "../images/Eclipse2.svg";
 const Overview = () => {
   return (
     <div>
-      <div className="w-full h-[70vh] relative">
+      <div className="w-full lg:h-[70vh] sm:h-[90vh] relative ">
         <p className="p-4 text-[#00df9a] font-b text-center md:text-4xl sm:text-3xl text-2xl">
           ABOUT
         </p>
         <div className="absolute">
           <img src={eclipse2} alt="" />
         </div>
-        <div className="max-w-[1240px] mx-auto grid md:grid-cols-2 absolute">
+        <div className="max-w-[1240px] mx-auto grid md:grid-cols-2 absolute sm:py-4 px-8">
           <img
             className="w-[300px] mx-auto my-4 rounded-[50%]"
             src={anee}
             alt=""
           />
-          <div className="flex flex-col justify-center font-c py-6 text-white">
+          <div className="flex flex-col justify-center text-justify font-c py-6 text-white ">
             <h1 className="md:text-3xl sm:text-2xl text-xl font-bold py-2">
               Here's a little something about me!
             </h1>

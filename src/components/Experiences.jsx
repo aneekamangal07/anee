@@ -4,7 +4,7 @@ import Experience from "./Experience";
 
 const Experiences = () => {
   return (
-    <div className="w-full py-4 px-4 h-[100vh]">
+    <div className="w-full py-4 px-4 lg:h-[100vh] sm:h-[180vh]">
       <div className="">
         <p className="text-[#00df9a] font-b text-center md:text-4xl sm:text-3xl text-2xl">
           EXPERIENCE
@@ -19,7 +19,7 @@ const Experiences = () => {
             <div className="max-w-[1240px] mx-auto grid md:grid-cols-3 gap-8">
               {/* <div className="flex flex-row justify-center"> */}
               {experienceCards.map((card) => (
-                <div key={card.name} className="px-8 py-5 ">
+                <div key={card.name} className="px-4 ">
                   <Experience {...card} />
                 </div>
               ))}
