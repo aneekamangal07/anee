@@ -6,7 +6,7 @@ const Experiences = () => {
   return (
     <div className="w-full py-4 px-4 lg:h-[100vh] sm:h-[180vh]">
       <div className="">
-        <p className="text-[#00df9a] font-b text-center md:text-4xl sm:text-3xl text-2xl">
+        <p className="text-[#d6c5f8] font-c text-center md:text-4xl sm:text-3xl text-2xl">
           EXPERIENCE
         </p>
       </div>

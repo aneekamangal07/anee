@@ -89,7 +89,7 @@ export const icons = [
   },
   {
     skillName: "Ubuntu",
-    skillIcon: "/assets/ubuntu.jpg",
+    skillIcon: "/assets/Ubuntu.png",
   },
 ];
 

@@ -6,7 +6,7 @@ const Overview = () => {
   return (
     <div>
       <div className="w-full lg:h-[70vh] sm:h-[90vh] relative ">
-        <p className="p-4 text-[#00df9a] font-b text-center md:text-4xl sm:text-3xl text-2xl">
+        <p className="p-4 text-[#d6c5f8] font-c text-center md:text-4xl sm:text-3xl text-2xl">
           ABOUT
         </p>
         <div className="absolute">
