@@ -9,9 +9,7 @@ const Hero = () => {
         <div className="bg-none opacity-60 absolute top-0 left-0">
           <img src={eclipse} alt="" />
         </div>
-        <h1 className="md:text-9xl sm:text-7xl text-6xl font-e font-bold md:py-6">
-          Aneeka Mangal
-        </h1>
+        <h1 className="text-9xl font-e font-bold md:py-6 ">Aneeka Mangal</h1>
         <div className="flex justify-center items-center font-c md:text-4xl sm:text-3xl text-xl font-bold">
           <p className="py-4 ">I am a</p>
           <Typed
