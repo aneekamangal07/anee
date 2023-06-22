@@ -8,7 +8,7 @@ const Contact = () => {
   return (
     <div className="bg-[#6BAA75] w-full h-auto">
       <div className="absolute">
-        <img src={contactbg} alt="" className="sm:h-[68vh]" />
+        <img src={contactbg} alt="" className="sm:h-[66vh]" />
       </div>
       <div className="py-4">
         <p className="text-[#cbff4d] tracking-widest text-center md:text-3xl sm:text-3xl text-2xl">
