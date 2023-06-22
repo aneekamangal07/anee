@@ -18,7 +18,7 @@ const Skills = () => {
               {icons.map((icon) => (
                 <div
                   key={icon.skillName}
-                  className="px-8 py-5 "
+                  className="px-8 py-4 "
                   onMouseEnter={() => {
                     setCurrSkill(icon.skillName);
                   }}

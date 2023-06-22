@@ -2,9 +2,9 @@ import React from "react";
 
 const Experience = ({ name, position, logo, tenure, overview }) => {
   return (
-    <div className="hover:bg-[#303030] rounded-lg h-[85vh] ">
+    <div className="hover:bg-[#303030] rounded-lg h-[85vh] sm:h-[60vh]">
       <section
-        className={`w-full shadow-xl flex flex-col p-10 h-[85vh] rounded-lg hover:cursor-pointer hover:scale-105 duration-300 `}
+        className={`w-full shadow-xl flex flex-col p-10 h-[85vh] sm:h-[60vh] rounded-lg hover:cursor-pointer hover:scale-105 duration-300 `}
       >
         <img
           src={logo}

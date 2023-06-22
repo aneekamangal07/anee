@@ -5,7 +5,7 @@ import eclipse2 from "../images/Eclipse2.svg";
 const Overview = () => {
   return (
     <div>
-      <div className="bg-[#6BAA75] w-full lg:h-[70vh] sm:h-[90vh] relative ">
+      <div className="bg-[#6BAA75] w-full lg:h-[70vh] sm:h-[100vh] relative ">
         <p className="p-4 text-black tracking-widest text-center md:text-3xl sm:text-3xl text-2xl">
           ABOUT ME
         </p>
