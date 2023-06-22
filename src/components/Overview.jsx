@@ -5,9 +5,9 @@ import eclipse2 from "../images/Eclipse2.svg";
 const Overview = () => {
   return (
     <div>
-      <div className="w-full lg:h-[70vh] sm:h-[90vh] relative ">
-        <p className="p-4 text-[#d6c5f8] font-c text-center md:text-4xl sm:text-3xl text-2xl">
-          ABOUT
+      <div className="bg-[#D1C4E9] w-full lg:h-[70vh] sm:h-[90vh] relative ">
+        <p className="p-4 text-black font-bold text-center md:text-3xl sm:text-3xl text-2xl">
+          ABOUT ME
         </p>
         <div className="absolute">
           <img src={eclipse2} alt="" />
@@ -36,7 +36,7 @@ const Overview = () => {
               Apart from technical stuff, I love sketching, I make realistic
               sketches and loves painting too.
             </p>
-            <p>Would love to catch up showcase my skills:)</p>
+            <p>Would love to catch up to showcase my skills:)</p>
           </div>
         </div>
       </div>

@@ -4,12 +4,9 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        a: ["Sharpie"],
         b: ["Chillax"],
         c: ["Satoshi"],
-        d: ["Neco"],
         e: ["Melodrama"],
-        f: ["Nunito"],
         g: ["Climate Crisis"],
       },
       backgroundImage: {
