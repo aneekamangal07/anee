@@ -12,7 +12,7 @@ const Experience = ({ name, position, logo, tenure, overview }) => {
           className="object-contain rounded-[50%] md:w-[200px] md:h-[200px] w-28 h-28 text-white mx-auto my-4"
         />
         {/* <h1 className="text-[22px] text-[#00df9a] font-bold font-c text-center mb-4">{name}</h1> */}
-        <h2 className="text-[#d6c5f8]  text-center font-bold font-c text-[23px] text-transform: uppercase">
+        <h2 className="text-[#d6c5f8] tracking-wider text-center font-bold font-c text-[23px] text-transform: uppercase">
           {position}
         </h2>
         <h2 className="text-white text-center font-c text-[12px] ">{tenure}</h2>
