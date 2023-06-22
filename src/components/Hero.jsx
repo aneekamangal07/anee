@@ -1,16 +1,19 @@
 import React from "react";
 import Typed from "react-typed";
 import eclipse from "../images/Eclipse.svg";
+import herobg from "../images/hero-bg.svg";
 
 const Hero = () => {
   return (
-    <div className="h-[80vh]">
-      <div className="text-[#f5efff] max-w-[800px] mt-[100px] w-full h-screen mx-auto text-center">
-        <div className="bg-none opacity-60 absolute top-0 left-0">
-          <img src={eclipse} alt="" />
+    <div className="h-[100vh]">
+      <div className="text-[#f5efff] flex h-screen justify-center items-center">
+        <div className="absolute ">
+          <img src={herobg} alt="" />
         </div>
-        <h1 className="text-9xl font-e font-bold md:py-6 ">Aneeka Mangal</h1>
-        <div className="flex justify-center items-center font-c md:text-4xl sm:text-3xl text-xl font-bold">
+        <h1 className="text-9xl font-g text-[#cbff4d] md:py-6 relative">
+          ANEEKA
+        </h1>
+        {/* <div className="flex justify-center items-center font-c md:text-4xl sm:text-3xl text-xl font-bold">
           <p className="py-4 ">I am a</p>
           <Typed
             className="text-[#d6c5f8] md:pl-4 pl-2"
@@ -25,7 +28,7 @@ const Hero = () => {
             backSpeed={140}
             loop
           />
-        </div>
+        </div> */}
       </div>
     </div>
   );

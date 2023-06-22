@@ -10,10 +10,11 @@ module.exports = {
         d: ["Neco"],
         e: ["Melodrama"],
         f: ["Nunito"],
+        g: ["Climate Crisis"],
       },
       backgroundImage: {
-        'bg-contact': "url('/images/bg-contact.svg')",
-      }
+        "bg-contact": "url('/images/bg-contact.svg')",
+      },
     },
   },
   plugins: [],
