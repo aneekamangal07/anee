@@ -115,32 +115,42 @@ export const experienceCards = [
     name: "E-Cell IIITM",
     position: "Member of Technical Department",
     tenure: "December 2021 - August-2022",
-    overview: "I was a member of Ecell-IIITM. Being in technical and design team my work was to make posters, headers, banners for socials of Ecell-IIITM.",
+    overview:
+      "I was a member of Ecell-IIITM. Being in technical and design team my work was to make posters, headers, banners for socials of Ecell-IIITM.",
   },
 ];
 
 export const projectCards = [
   {
     image: "/assets/tnp.jpg",
-    name: "Training and Placement Cell",
-    position: "Placement Representative",
-    tenure: "April 2023 - Present",
-    overview:
-      "As the Placement Representative of IIITM Gwalior, my role is to connect students with potential employers, assisting them in finding suitable job opportunities. My work as a PR is to call and mail the companies to visit our campus to recruit our students. I work closely with industry professionals and organizing recruitment events.",
+    video: "/assets/ecell.jpg",
+    name: "Drop V2.0",
+    url: "",
+    gitUrl: "",
+    desc: "Drop V2.0 is a blogging project, serving as a CRUD application, enabling users to effortlessly create, update, and delete personal blogs. Leveraged MongoDB, ExpressJs, React, and NodeJs for scalability and a seamless user experience. Deployed on GitHub pages via GitHub Actions.",
   },
   {
-    logo: "/assets/uthaan.png",
-    name: "Uthaan Club of IIITM",
-    position: "Head of Reporting Department",
-    tenure: "August 2022 - Present",
-    overview:
-      "I am the head of Reporting Department of Uthaan-IIITM. Uthaan is a journalism and recreation club of IIITM, my role is to take interviews of esteemed people who visit our campus like recruiters, alumnis, poets, singers, etc.",
+    image: "/assets/tnp.jpg",
+    video: "",
+    name: "Guardian",
+    url: "",
+    gitUrl: "",
+    desc: "",
   },
-  {
-    logo: "/assets/ecell.jpg",
-    name: "E-Cell IIITM",
-    position: "Member of Technical Department",
-    tenure: "December 2021 - August-2022",
-    overview: "I was a member of Ecell-IIITM. Being in technical and design team my work was to make posters, headers, banners for socials of Ecell-IIITM.",
-  },
+  // {
+  //   image: "/assets/tnp.jpg",
+  //   video: "",
+  //   name: "Guardian",
+  //   url: "",
+  //   gitUrl: "",
+  //   desc: "",
+  // },
+  // {
+  //   image: "/assets/tnp.jpg",
+  //   video: "",
+  //   name: "Drop V2.0",
+  //   url: "",
+  //   gitUrl: "",
+  //   desc: "",
+  // },
 ];
