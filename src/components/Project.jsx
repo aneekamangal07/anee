@@ -1,21 +1,28 @@
-import React from 'react'
+import React from "react";
 
-const Project = () => {
+const Project = ({ name, desc, image, video, url, gitUrl }) => {
   return (
-    <div className="hover:bg-[#303030] rounded-lg">
-      <section className={`w-full shadow-xl flex flex-col p-10  rounded-lg hover:cursor-pointer hover:scale-105 duration-300 `}>
+    <div className="rounded-lg">
+      {/* <iframe class="w-full aspect-video hover:aspect-square" src={video}></iframe> */}
+
+      <section className="bg-[#303030] w-[380px] h-[550px] object-fill shadow-xl flex flex-col rounded-lg hover:cursor-pointer hover:scale-105 duration-300">
         <img
-          src={logo}
+          src={image}
           alt={name}
-          className="object-contain rounded-[50%] md:w-[200px] md:h-[200px] w-28 h-28 text-white mx-auto my-4"
+          className="w-full h-[230px] object-cover rounded-t-lg text-white"
         />
-        {/* <h1 className="text-[22px] text-[#00df9a] font-bold font-c text-center mb-4">{name}</h1> */}
-        <h2 className="text-[#00df9a]  text-center font-bold font-c text-[23px] text-transform: uppercase">{position}</h2>
-        <h2 className="text-white text-center font-c text-[12px] ">{tenure}</h2>
-        <p className="text-white text-justify font-c text-text-[14px] py-6">{overview}</p>
+        <div className="p-4 m-auto flex-2">
+          <h2 className="text-[#00df9a]  text-center font-bold font-c text-[23px] text-transform: uppercase">
+            {name}
+          </h2>
+          {/* <h2 className="text-white text-center font-c text-[12px] ">{}</h2> */}
+          <p className="text-white p-8 text-justify font-c text-text-[14px] py-6">
+            {desc}
+          </p>
+        </div>
       </section>
     </div>
-  )
-}
+  );
+};
 
-export default Project
+export default Project;
