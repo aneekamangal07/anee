@@ -122,7 +122,7 @@ export const experienceCards = [
 
 export const projectCards = [
   {
-    image: "/assets/tnp.jpg",
+    image: "/assets/p1.svg",
     video: "/assets/ecell.jpg",
     name: "Drop V2.0",
     url: "",
@@ -130,7 +130,7 @@ export const projectCards = [
     desc: "Drop V2.0 is a blogging project, serving as a CRUD application, enabling users to effortlessly create, update, and delete personal blogs. Leveraged MongoDB, ExpressJs, React, and NodeJs for scalability and a seamless user experience. Deployed on GitHub pages via GitHub Actions.",
   },
   {
-    image: "/assets/tnp.jpg",
+    image: "/assets/p2.svg",
     video: "",
     name: "Guardian",
     url: "",

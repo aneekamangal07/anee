@@ -4,9 +4,9 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        b: ["Chillax"],
-        c: ["Satoshi"],
         e: ["Melodrama"],
+        b: ["Chillax"],
+        c: ["Poppins"],
         g: ["Climate Crisis"],
       },
       backgroundImage: {

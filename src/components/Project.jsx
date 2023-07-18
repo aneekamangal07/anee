@@ -1,4 +1,5 @@
 import React from "react";
+import { Github } from "lucide-react";
 
 const Project = ({ name, desc, image, video, url, gitUrl }) => {
   return (
@@ -9,16 +10,22 @@ const Project = ({ name, desc, image, video, url, gitUrl }) => {
         <img
           src={image}
           alt={name}
-          className="w-full h-[230px] object-cover rounded-t-lg text-white"
+          className="w-[380px] h-[230px] object-cover rounded-t-lg text-white"
         />
-        <div className="p-4 m-auto flex-2">
-          <h2 className="text-[#00df9a]  text-center font-bold font-c text-[23px] text-transform: uppercase">
+        <div className=" m-auto flex-2 font-c font-thin">
+          <h2 className="text-white text-center font-medium font-c text-[23px] text-transform: uppercase">
             {name}
           </h2>
-          {/* <h2 className="text-white text-center font-c text-[12px] ">{}</h2> */}
-          <p className="text-white p-8 text-justify font-c text-text-[14px] py-6">
+          <p className="text-white p-8 text-justify text-text-[14px] py-6">
             {desc}
           </p>
+          <div className="text-white px-8 flex space-x-32">
+            <Github />
+            <a href="" className="">
+              View Code
+            </a>
+            <button>Live Preview</button>
+          </div>
         </div>
       </section>
     </div>
