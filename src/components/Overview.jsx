@@ -1,17 +1,19 @@
 import React from "react";
 import anee from "../images/anee.jpg";
 import eclipse2 from "../images/Eclipse2.svg";
+import "../components/Style.css";
+import "../../src/app.css"
 
 const Overview = () => {
   return (
-    <div className=" bg-[#FED505] bg-opacity-75 w-full lg:h-[75vh] sm:h-[110vh] relative ">
+    <div className="section bg-[#bea004] w-full lg:h-[75vh] sm:h-[110vh]">
       <div className="w-full py-16 px-4">
         <p className="p-4 text-black font-e font-bold tracking-widest text-center md:text-5xl sm:text-5xl text-2xl">
           ABOUT ME
         </p>
-        <div className="absolute">
+        {/* <div className="absolute">
           <img src={eclipse2} alt="" />
-        </div>
+        </div> */}
         <div className="max-w-[1240px] mx-auto grid md:grid-cols-2 absolute sm:py-4 px-8">
           <img
             className="w-[300px] mx-auto my-4 rounded-[50%]"

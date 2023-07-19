@@ -1,0 +1,71 @@
+.curve{
+  position: absolute;
+  height: 220px;
+  width: 100%;
+  bottom: 0;
+}
+.curve::before {
+  content: '';
+  display: block;
+  position: absolute;
+  border-radius: 100% 50%;
+  width: 55%;
+  height: 100%;
+  /* top: -100px; */
+  background-color: #bea004;
+  transform: translate(85%, 60%);
+  z-index: 0;
+}
+.curve::after {
+  content: '';
+  display: block;
+  position: absolute;
+  border-radius: 100% 50%;
+  width: 55%;
+  height: 100%;
+  background-color: black;
+  transform: translate(-4%, 40%);
+  z-index: 9;
+}
+
+.curve2{
+  position: absolute;
+  height: 220px;
+  width: 100%;
+  bottom: 0;
+}
+.curve2::before {
+  content: '';
+  display: block;
+  position: absolute;
+  border-radius: 100% 50%;
+  width: 55%;
+  height: 100%;
+  /* top: -100px; */
+  background-color: #ba2160;
+  transform: translate(85%, 60%);
+  z-index: 0;
+}
+.curve2::after {
+  content: '';
+  display: block;
+  position: absolute;
+  border-radius: 100% 50%;
+  width: 55%;
+  height: 100%;
+  background-color: #bb4247;
+  transform: translate(-4%, 40%);
+  z-index: 9;
+}
+.bubble::after{
+  content: '';
+  display: block;
+  border-top-left-radius: 50% 100%;
+  border-top-right-radius: 50% 100%;
+  position: absolute;
+  width: 100%;
+  height: 20%;
+  bottom: 0;
+  background-color: #bb4247;
+  z-index: 9;
+}

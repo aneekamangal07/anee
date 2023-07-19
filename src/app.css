@@ -1,3 +1,9 @@
-.section {
-    scroll-snap-align: start;
-  }
+body{
+  overflow-x: hidden;
+}
+.section{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  /* overflow: hidden; */
+}

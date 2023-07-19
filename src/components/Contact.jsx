@@ -1,17 +1,17 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { SocialIcon } from "react-social-icons";
+import { Github, Instagram, Linkedin } from "lucide-react";
 import { SiGmail } from "react-icons/si";
 import contactbg from "../images/bg-contact.svg";
 
 const Contact = () => {
   return (
-    <div className="w-full h-auto">
+    <div className="">
       <div className="absolute">
         <img src={contactbg} alt="" className="sm:h-[66vh]" />
       </div>
-      <div className="py-4">
-        <p className="text-[#cbff4d] tracking-widest text-center md:text-3xl sm:text-3xl text-2xl">
+      <div className="w-full py-16 px-4">
+        <p className="text-[#cbff4d] font-e font-bold tracking-widest text-center md:text-5xl sm:text-5xl text-2xl">
           CONTACT
         </p>
         <div className="pt-[50px]">
@@ -28,34 +28,15 @@ const Contact = () => {
           </div>
           <div className="flex align-center justify-center py-4">
             {/* socials */}
-            <SocialIcon
-              className="hover:cursor-pointer hover:scale-150 duration-300"
-              url="https://www.instagram.com/aneekamangal/"
-              title="Instagram"
-              fgColor="#cbff4d"
-              bgColor="transparent"
-            />
-            <SocialIcon
-              className="hover:cursor-pointer hover:scale-150 duration-300"
-              url="https://www.github.com/aneekamangal07/"
-              title="Instagram"
-              fgColor="#cbff4d"
-              bgColor="transparent"
-            />
-            <SocialIcon
-              className="hover:cursor-pointer hover:scale-150 duration-300"
-              url="https://www.linkedin.com/in/aneeka-mangal-740774232/"
-              title="Instagram"
-              fgColor="#cbff4d"
-              bgColor="transparent"
-            />
-            {/* <SocialIcon url= "https://www.leetcode.com/aneekamangal07/" title="Instagram" fgColor="gray" bgColor="transparent"/> */}
+            <div className="flex flex-row space-x-4">
+              <Instagram className="text-[#cbff4d]" />
+              <Github className="text-[#cbff4d]" />
+              <Linkedin className="text-[#cbff4d]" />
+              {/* <SocialIcon url= "https://www.leetcode.com/aneekamangal07/" title="Instagram" fgColor="gray" bgColor="transparent"/> */}
+            </div>
           </div>
         </div>
       </div>
-      {/* <div className="relative">
-        <img src={eclipse3} alt="" />
-      </div> */}
     </div>
   );
 };

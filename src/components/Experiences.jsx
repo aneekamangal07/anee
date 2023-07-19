@@ -4,7 +4,7 @@ import Experience from "./Experience";
 
 const Experiences = () => {
   return (
-    <div className="bg-[#F82C80] bg-opacity-75 w-full py-4 px-4 lg:h-[125vh] sm:h-[210vh]">
+    <div className="section bg-[#ba2160] w-full py-4 px-4 lg:h-[125vh] sm:h-[210vh]">
       <div className="w-full py-16 px-4">
         <p className="font-e font-bold tracking-widest text-center md:text-5xl sm:text-5xl text-2xl">
           {/* <p className="text-[#cbff4d] text-center tracking-widest md:text-3xl sm:text-3xl text-2xl"> */}
