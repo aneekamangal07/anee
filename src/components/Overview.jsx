@@ -2,12 +2,26 @@ import React from "react";
 import anee from "../images/anee.jpg";
 import eclipse2 from "../images/Eclipse2.svg";
 import "../components/Style.css";
-import "../../src/app.css"
+import "../../src/app.css";
 
 const Overview = () => {
   return (
-    <div className="section bg-[#bea004] w-full lg:h-[75vh] sm:h-[110vh]">
-      <div className="w-full py-16 px-4">
+    <div className="section bg-[#bea004] w-full lg:h-[85vh] sm:h-[110vh]">
+      <div class="custom-shape-divider-top-1689796382">
+        <svg
+          data-name="Layer 1"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1200 120"
+          preserveAspectRatio="none"
+        >
+          <path
+            d="M0,0V6c0,21.6,291,111.46,741,110.26,445.39,3.6,459-88.3,459-110.26V0Z"
+            class="shape-fill"
+            width="300%"
+          ></path>
+        </svg>
+      </div>
+      <div className="w-full py-4 px-4">
         <p className="p-4 text-black font-e font-bold tracking-widest text-center md:text-5xl sm:text-5xl text-2xl">
           ABOUT ME
         </p>

@@ -2,7 +2,7 @@ import React from "react";
 
 const Experience = ({ name, position, logo, tenure, overview }) => {
   return (
-    <div className="hover:bg-[#CA498C] rounded-lg lg:h-[90vh] sm:h-[55vh]">
+    <div className="hover:bg-[#cfb184] rounded-lg lg:h-[90vh] sm:h-[55vh]">
       <section
         className={`w-full flex flex-col p-10 lg:h-[90vh] sm:h-[60vh] rounded-lg hover:cursor-pointer hover:scale-105 duration-300 `}
       >
@@ -15,9 +15,7 @@ const Experience = ({ name, position, logo, tenure, overview }) => {
           <h2 className="tracking-wider text-center font-bold text-[23px] text-transform: uppercase">
             {position}
           </h2>
-          <h2 className="text-white text-center text-[12px] ">
-            {tenure}
-          </h2>
+          <h2 className="text-white text-center text-[12px] ">{tenure}</h2>
           <p className="text-white text-justify text-text-[14px] py-6">
             {overview}
           </p>

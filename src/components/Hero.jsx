@@ -18,7 +18,7 @@ const Hero = () => {
           ANEEKA
         </h1>
       </div>
-      <div className="curve"></div>
+      {/* <div className="curve"></div> */}
     </div>
   );
 };
