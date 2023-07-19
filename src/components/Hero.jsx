@@ -8,9 +8,13 @@ const Hero = () => {
     <div className="h-[100vh]">
       <div className="text-[#f5efff] flex h-screen justify-center items-center">
         <div className="absolute ">
-          <img src={herobg} alt="" className="md:h-[500px] md:w-[500px] sm:h-[350px] sm:w-[350px]"/>
+          <img
+            src={herobg}
+            alt=""
+            className="md:h-[500px] md:w-[500px] sm:h-[350px] sm:w-[350px]"
+          />
         </div>
-        <h1 className=" sm:text-[90px] md:text-9xl font-g text-[#cbff4d] md:py-6 relative">
+        <h1 className=" sm:text-[90px] md:text-9xl font-d text-[#cbff4d] md:py-6 relative">
           ANEEKA
         </h1>
         {/* <div className="flex justify-center items-center font-c md:text-4xl sm:text-3xl text-xl font-bold">

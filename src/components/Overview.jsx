@@ -4,9 +4,9 @@ import eclipse2 from "../images/Eclipse2.svg";
 
 const Overview = () => {
   return (
-    <div className="">
-      <div className="bg-[#6BAA75] w-full lg:h-[70vh] sm:h-[100vh] relative ">
-        <p className="p-4 text-black tracking-widest text-center md:text-3xl sm:text-3xl text-2xl">
+    <div className=" bg-[#FED505] bg-opacity-75 w-full lg:h-[75vh] sm:h-[110vh] relative ">
+      <div className="w-full py-16 px-4">
+        <p className="p-4 text-black font-e font-bold tracking-widest text-center md:text-5xl sm:text-5xl text-2xl">
           ABOUT ME
         </p>
         <div className="absolute">
@@ -19,7 +19,7 @@ const Overview = () => {
             alt=""
           />
           <div className="flex flex-col justify-center text-justify font-c py-6 text-white ">
-            <h1 className="md:text-3xl sm:text-2xl text-xl font-bold py-2">
+            <h1 className="md:text-3xl sm:text-2xl text-xl font-normal py-2">
               Here's a little something about me!
             </h1>
             <p>

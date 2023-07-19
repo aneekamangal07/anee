@@ -1,5 +1,5 @@
 import React from "react";
-import { Github } from "lucide-react";
+import { Github, Paperclip } from "lucide-react";
 
 const Project = ({ name, desc, image, video, url, gitUrl }) => {
   return (
@@ -13,18 +13,23 @@ const Project = ({ name, desc, image, video, url, gitUrl }) => {
           className="w-[380px] h-[230px] object-cover rounded-t-lg text-white"
         />
         <div className=" m-auto flex-2 font-c font-thin">
-          <h2 className="text-white text-center font-medium font-c text-[23px] text-transform: uppercase">
+          <h2 className="text-white text-center font-medium text-[23px] text-transform: uppercase">
             {name}
           </h2>
-          <p className="text-white p-8 text-justify text-text-[14px] py-6">
+          <p className="text-white p-8 pt-2 text-justify text-text-[14px] py-6">
             {desc}
           </p>
-          <div className="text-white px-8 flex space-x-32">
-            <Github />
-            <a href="" className="">
-              View Code
-            </a>
-            <button>Live Preview</button>
+          <div className="text-white px-8 pb-4 flex space-x-16">
+            <div className="flex space-x-2 ">
+              <Github className="h-[14px] w-[14px] m-1" />
+              <a href="" className="">
+                View Code
+              </a>
+            </div>
+            <div className="flex space-x-2">
+              <Paperclip className="h-[14px] w-[14px] m-1" />
+              <button>Live Preview</button>
+            </div>
           </div>
         </div>
       </section>

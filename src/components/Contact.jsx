@@ -6,7 +6,7 @@ import contactbg from "../images/bg-contact.svg";
 
 const Contact = () => {
   return (
-    <div className="bg-[#6BAA75] w-full h-auto">
+    <div className="w-full h-auto">
       <div className="absolute">
         <img src={contactbg} alt="" className="sm:h-[66vh]" />
       </div>
