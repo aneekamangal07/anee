@@ -4,10 +4,11 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        e: ["Melodrama"],
+        a: ["Melodrama"],
         b: ["Chillax"],
         c: ["Poppins"],
-        g: ["Climate Crisis"],
+        d: ["Climate Crisis"],
+        e: ["Yanone Kaffeesatz"],
       },
       backgroundImage: {
         "bg-contact": "url('/images/bg-contact.svg')",
