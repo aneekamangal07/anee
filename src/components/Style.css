@@ -27,7 +27,7 @@
   z-index: 9;
 } */
 /*  */
-.bubble::after{
+/* .bubble::after{
   content: '';
   display: block;
   border-top-left-radius: 50% 100%;
@@ -38,4 +38,4 @@
   bottom: 0;
   background-color: #bb4247;
   z-index: 9;
-}
+} */

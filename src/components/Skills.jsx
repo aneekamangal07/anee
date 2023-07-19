@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import { icons } from "../data/db";
 import Skill from "./Skill";
-import "../components/Style.css";
-import "../../src/app.css";
 
 const Skills = () => {
   const [currSkill, setCurrSkill] = useState("");

@@ -1,8 +1,6 @@
 import React from "react";
 import anee from "../images/anee.jpg";
 import eclipse2 from "../images/Eclipse2.svg";
-import "../components/Style.css";
-import "../../src/app.css";
 
 const Overview = () => {
   return (

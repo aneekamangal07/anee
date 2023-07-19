@@ -1,7 +1,5 @@
 import React from "react";
 import herobg from "../images/hero-bg.svg";
-import "../components/Style.css";
-import "../../src/app.css";
 
 const Hero = () => {
   return (
