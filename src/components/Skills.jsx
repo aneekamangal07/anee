@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { icons } from "../data/db";
 import Skill from "./Skill";
+import flower from "../images/scribbles/flower.svg";
+import { motion } from "framer-motion";
 
 const Skills = () => {
   const [currSkill, setCurrSkill] = useState("");
@@ -34,10 +36,22 @@ const Skills = () => {
       </div>
 
       <div className="w-full py-16 px-4">
-        <p className="font-e font-bold text-center tracking-widest md:text-5xl sm:text-5xl text-2xl">
-          {/* <p className="text-[#cbff4d] text-center tracking-widest md:text-3xl sm:text-3xl text-2xl"> */}
+        <motion.img
+          whileHover={{ scale: 1.1 }}
+          whileTap={{ scale: 0.9 }}
+          transition={{ duration: 0.3 }}
+          src={flower}
+          alt=""
+          className="absolute top-[200px] left-[600px]"
+        />
+        <motion.p
+          className="font-e font-bold text-center tracking-widest md:text-5xl sm:text-5xl text-2xl"
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ duration: 1 }}
+        >
           SKILLS
-        </p>
+        </motion.p>
       </div>
       <div>
         <section className={`flex flex-col justify-center items-center`}>

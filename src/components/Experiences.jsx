@@ -1,6 +1,8 @@
 import React from "react";
 import { experienceCards } from "../data/db";
 import Experience from "./Experience";
+import saturn from "../images/scribbles/saturn.svg";
+import { motion } from "framer-motion";
 
 const Experiences = () => {
   return (
@@ -32,8 +34,15 @@ const Experiences = () => {
         </svg>
       </div>
       <div className="w-full">
+        <motion.img
+          whileHover={{ scale: 1.1 }}
+          whileTap={{ scale: 0.9 }}
+          transition={{ duration: 0.3 }}
+          src={saturn}
+          alt=""
+          className="absolute left-[120px]"
+        />
         <p className="font-e font-bold tracking-widest text-center md:text-5xl sm:text-5xl text-2xl">
-          {/* <p className="text-[#cbff4d] text-center tracking-widest md:text-3xl sm:text-3xl text-2xl"> */}
           EXPERIENCE
         </p>
       </div>

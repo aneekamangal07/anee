@@ -6,7 +6,7 @@ import contactbg from "../images/bg-contact.svg";
 
 const Contact = () => {
   return (
-    <div className="lg:h-[40px] sm:h-[10vh]">
+    <div className="">
       <div class="custom-shape-divider-top-1689796117">
         <svg
           data-name="Layer 1"
