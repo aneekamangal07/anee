@@ -4,7 +4,7 @@ import Project from "./Project";
 
 const Projects = () => {
   return (
-    <div className="section bg-[#BB4247] w-full lg:h-[190vh] sm:h-[370vh]">
+    <div className="section bg-[#BB4247] w-full lg:h-[190vh] sm:h-[75vh]">
       <div class="custom-shape-divider-top-1689796911">
         <svg
           data-name="Layer 1"

@@ -4,7 +4,7 @@ import Experience from "./Experience";
 
 const Experiences = () => {
   return (
-    <div className="section bg-[#c6a97d] w-full lg:h-[125vh] sm:h-[210vh]">
+    <div className="section bg-[#c6a97d] w-full lg:h-[125vh] sm:h-[50vh]">
       <div class="custom-shape-divider-top-1689795155">
         <svg
           data-name="Layer 1"

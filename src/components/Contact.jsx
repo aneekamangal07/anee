@@ -6,7 +6,7 @@ import contactbg from "../images/bg-contact.svg";
 
 const Contact = () => {
   return (
-    <div className="">
+    <div className="lg:h-[40px] sm:h-[10vh]">
       <div class="custom-shape-divider-top-1689796117">
         <svg
           data-name="Layer 1"
@@ -14,11 +14,15 @@ const Contact = () => {
           viewBox="0 0 1200 120"
           preserveAspectRatio="none"
         >
-          <path d="M1200 0L0 0 598.97 114.72 1200 0z" class="shape-fill" fill="#c6a97d"></path>
+          <path
+            d="M1200 0L0 0 598.97 114.72 1200 0z"
+            class="shape-fill"
+            fill="#c6a97d"
+          ></path>
         </svg>
       </div>
-      <div className="absolute">
-        <img src={contactbg} alt="" className="sm:h-[66vh]" />
+      <div className="absolute sm:absolute">
+        <img src={contactbg} alt="" className="h-auto" />
       </div>
       <div className="w-full py-16 px-4">
         <p className="text-[#cbff4d] font-e font-bold tracking-widest text-center md:text-5xl sm:text-5xl text-2xl">

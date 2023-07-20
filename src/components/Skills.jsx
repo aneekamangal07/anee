@@ -5,7 +5,7 @@ import Skill from "./Skill";
 const Skills = () => {
   const [currSkill, setCurrSkill] = useState("");
   return (
-    <div className="section bg-[#BD7225] lg:h-[110vh] sm:h-[90vh]">
+    <div className="section bg-[#BD7225] lg:h-[110vh] sm:h-[45vh]">
       <div class="custom-shape-divider-top-1689795014">
         <svg
           data-name="Layer 1"

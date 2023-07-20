@@ -3,7 +3,7 @@ import herobg from "../images/hero-bg.svg";
 
 const Hero = () => {
   return (
-    <div className="section h-[100vh]">
+    <div className="section lg:h-[100vh] sm:h-[70vh]">
       <div className="text-[#f5efff] flex h-screen justify-center items-center">
         <div className="absolute ">
           <img

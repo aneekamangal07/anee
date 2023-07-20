@@ -1,10 +1,11 @@
 import React from "react";
 import anee from "../images/anee.jpg";
 import eclipse2 from "../images/Eclipse2.svg";
+import { motion } from "framer-motion";
 
 const Overview = () => {
   return (
-    <div className="section bg-[#bea004] w-full lg:h-[85vh] sm:h-[110vh]">
+    <div className="section bg-[#bea004] w-full lg:h-[85vh] sm:h-[35vh]">
       <div class="custom-shape-divider-top-1689796382">
         <svg
           data-name="Layer 1"
