@@ -25,8 +25,8 @@ const Contact = () => {
         <img src={contactbg} alt="" className="h-auto" />
       </div>
       <div className="w-full py-16 px-4">
-        <p className="text-[#cbff4d] font-e font-bold tracking-widest text-center md:text-5xl sm:text-5xl text-2xl">
-          CONTACT
+        <p className="text-[#cbff4d] font-e font-bold tracking-widest text-center md:text-7xl sm:text-5xl text-2xl">
+          Let's Talk!
         </p>
         <div className="pt-[50px]">
           <div className="py-16 text-white tracking-widest text-center flex flex-col justify-center items-center m-auto">
@@ -37,7 +37,7 @@ const Contact = () => {
             >
               <SiGmail size={"100px"} />
             </a>
-            <h1 className="p-4">LET'S TALK!</h1>
+            {/* <h1 className="p-4">LET'S TALK!</h1> */}
             <h2 className="font-bold ">aneekamangal@gmail.com</h2>
           </div>
           <div className="flex align-center justify-center py-4">

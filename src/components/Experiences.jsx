@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 
 const Experiences = () => {
   return (
-    <div className="section bg-[#c6a97d] w-full lg:h-[125vh] sm:h-[50vh]">
+    <div className="section bg-[#c6a97d] w-full lg:h-[100vh] sm:h-[50vh]">
       <div class="custom-shape-divider-top-1689795155">
         <svg
           data-name="Layer 1"
@@ -42,8 +42,8 @@ const Experiences = () => {
           alt=""
           className="absolute left-[120px]"
         />
-        <p className="font-e font-bold tracking-widest text-center md:text-5xl sm:text-5xl text-2xl">
-          EXPERIENCE
+        <p className="font-e font-bold tracking-widest text-center md:text-7xl sm:text-5xl text-2xl">
+          Experience
         </p>
       </div>
       <div>

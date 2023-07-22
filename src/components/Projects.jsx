@@ -22,16 +22,16 @@ const Projects = () => {
         </svg>
       </div>
 
-      <div className="dark font-e font-bold tracking-widest text-center md:text-5xl sm:text-5xl text-2xl">
+      <div className="dark font-e font-bold tracking-widest text-center md:text-7xl sm:text-5xl text-2xl">
         <motion.img
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.9 }}
           transition={{ duration: 0.3 }}
           src={bubbles}
           alt=""
-          className="absolute right-[600px] top-20"
+          className="absolute right-[460px] top-20"
         />
-        PROJECTS
+        I made Projects
       </div>
       {/* <div className="w-full py-16 px-4">
         <p className="">

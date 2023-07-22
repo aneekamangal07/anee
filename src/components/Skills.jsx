@@ -42,15 +42,15 @@ const Skills = () => {
           transition={{ duration: 0.3 }}
           src={flower}
           alt=""
-          className="absolute top-[200px] left-[600px]"
+          className="absolute top-[200px] left-[390px]"
         />
         <motion.p
-          className="font-e font-bold text-center tracking-widest md:text-5xl sm:text-5xl text-2xl"
+          className="font-e font-bold text-center tracking-widest md:text-7xl sm:text-5xl text-2xl"
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           transition={{ duration: 1 }}
         >
-          SKILLS
+          Technologies i Know
         </motion.p>
       </div>
       <div>
