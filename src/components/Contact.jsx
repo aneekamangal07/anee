@@ -3,10 +3,11 @@ import ReactDOM from "react-dom";
 import { Github, Instagram, Linkedin } from "lucide-react";
 import { SiGmail } from "react-icons/si";
 import contactbg from "../images/bg-contact.svg";
+import { motion } from "framer-motion";
 
 const Contact = () => {
   return (
-    <div className="">
+    <div className="h-[100vh]">
       <div class="custom-shape-divider-top-1689796117">
         <svg
           data-name="Layer 1"
@@ -22,12 +23,17 @@ const Contact = () => {
         </svg>
       </div>
       <div className="absolute sm:absolute">
-        <img src={contactbg} alt="" className="h-auto" />
+        <img src={contactbg} alt="" className="" />
       </div>
       <div className="w-full py-16 px-4">
-        <p className="text-[#cbff4d] font-e font-bold tracking-widest text-center md:text-7xl sm:text-5xl text-2xl">
+        <motion.p
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ duration: 1 }}
+          className="text-[#cbff4d] font-e font-bold tracking-widest text-center md:text-7xl sm:text-5xl text-2xl"
+        >
           Let's Talk!
-        </p>
+        </motion.p>
         <div className="pt-[50px]">
           <div className="py-16 text-white tracking-widest text-center flex flex-col justify-center items-center m-auto">
             <a
@@ -46,7 +52,7 @@ const Contact = () => {
               <Instagram className="text-[#cbff4d]" />
               <Github className="text-[#cbff4d]" />
               <Linkedin className="text-[#cbff4d]" />
-              {/* <SocialIcon url= "https://www.leetcode.com/aneekamangal07/" title="Instagram" fgColor="gray" bgColor="transparent"/> */}
+              {/* <SocialIcon url= "https://www.leetcode.com/aneekamangal/" title="" >*/}
             </div>
           </div>
         </div>

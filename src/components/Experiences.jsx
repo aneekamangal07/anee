@@ -42,9 +42,14 @@ const Experiences = () => {
           alt=""
           className="absolute left-[120px]"
         />
-        <p className="font-e font-bold tracking-widest text-center md:text-7xl sm:text-5xl text-2xl">
+        <motion.p
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ duration: 1 }}
+          className="font-e font-bold tracking-widest text-center md:text-7xl sm:text-5xl text-2xl"
+        >
           Experience
-        </p>
+        </motion.p>
       </div>
       <div>
         <section className={`flex flex-col justify-center items-center `}>

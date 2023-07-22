@@ -1,10 +1,13 @@
 import React from "react";
+import { motion } from "framer-motion";
 
 const Experience = ({ name, position, logo, tenure, overview }) => {
   return (
     <div className="hover:bg-[#cfb184] rounded-lg lg:h-[70vh] sm:h-[55vh]">
-      <section
-        className={`w-full flex flex-col p-10 lg:h-[90vh] sm:h-[60vh] rounded-lg hover:cursor-pointer hover:scale-105 duration-300 `}
+      <motion.section
+        whileHover={{ scale: 1.1 }}
+        transition={{ duration: 0.3 }}
+        className={`w-full flex flex-col p-10 lg:h-[90vh] sm:h-[60vh] rounded-lg `}
       >
         <img
           src={logo}
@@ -16,11 +19,9 @@ const Experience = ({ name, position, logo, tenure, overview }) => {
             {position}
           </h2>
           <h2 className="text-white text-center text-[10px] ">{tenure}</h2>
-          <p className="text-white text-justify text-[12px] py-6">
-            {overview}
-          </p>
+          <p className="text-white text-justify text-[12px] py-6">{overview}</p>
         </div>
-      </section>
+      </motion.section>
     </div>
   );
 };
