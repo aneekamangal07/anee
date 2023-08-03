@@ -1,5 +1,4 @@
 import React from "react";
-import ReactDOM from "react-dom";
 import { Github, Instagram, Linkedin } from "lucide-react";
 import { SiGmail } from "react-icons/si";
 import contactbg from "../images/bg-contact.svg";

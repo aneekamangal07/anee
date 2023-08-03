@@ -1,7 +1,6 @@
 import React from "react";
 import herobg from "../images/hero-bg.svg";
 import { motion } from "framer-motion";
-import shine from "../images/scribbles/shine.svg";
 import star from "../images/scribbles/star.svg";
 const Hero = () => {
   return (

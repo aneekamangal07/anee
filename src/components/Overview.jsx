@@ -1,11 +1,8 @@
-import React, { useRef } from "react";
+import React from "react";
 import anee from "../images/anee.jpg";
-import eclipse2 from "../images/Eclipse2.svg";
 import { motion } from "framer-motion";
-import spark from "../images/scribbles/spark.svg";
 
 const Overview = () => {
-  const scrollRef = useRef(null);
   return (
     <div className="section bg-[#bea004] w-full lg:h-[85vh] sm:h-[35vh]">
       <div class="custom-shape-divider-top-1689796382">

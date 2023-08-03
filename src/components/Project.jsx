@@ -1,5 +1,4 @@
 import React from "react";
-import { Github, Paperclip } from "lucide-react";
 import { motion } from "framer-motion";
 
 const Project = ({ name, image}) => {
