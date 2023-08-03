@@ -1,19 +1,25 @@
 import React, { useState } from "react";
 import { projectCards } from "../data/db";
 import Project from "./Project";
+import Project2 from "./Project2";
 import bubbles from "../images/scribbles/bubbles.svg";
 import { motion } from "framer-motion";
 
 const Projects = () => {
-  const [selectedProject, setSelectedProject] = useState([projectCards[0]]);
+  const [selectedProjectName, setSelectedProjectName] = useState(
+    projectCards[0].name
+  );
 
-  const handleProjectClick = (project) => {
-    setSelectedProject(project);
+  const handleProjectClick = (projectName) => {
+    setSelectedProjectName(projectName);
   };
 
-  
+  const selectedProject = projectCards.find(
+    (project) => project.name === selectedProjectName
+  );
+
   return (
-    <div className="section bg-[#BB4247] w-full lg:h-[190vh] sm:h-[75vh]">
+    <div className="section bg-[#BB4247] w-full lg:h-[100vh] sm:h-[75vh]">
       {/* Curves */}
       <div class="custom-shape-divider-top-1689796911">
         <svg
@@ -44,33 +50,41 @@ const Projects = () => {
           whileInView={{ opacity: 1 }}
           transition={{ duration: 1 }}
         >
-          I made Projects
+          Projects I made 
         </motion.p>
       </div>
       {/* Projects */}
-      <div className="grid grid-cols-3 item-center justify-center p-6">
+      <div className="w-full flex item-center justify-center p-6">
         {/* Small Card */}
-        <div className="">
-          <h3>{projectCards[0].name}</h3>
-          <p>{projectCards[0].desc}</p>
+        <div className="flex-1">
+          <Project name={selectedProject.name} image={selectedProject.image} />
         </div>
         {/* Big Card */}
-        <div style={{ marginLeft: "20px" }}>
-          <h3>{selectedProject.name}</h3>
-          <p>{selectedProject.desc}</p>
+        <div className="mx-[20px] flex-2">
+          <Project2
+            name={selectedProject.name}
+            desc={selectedProject.desc}
+            image2={selectedProject.image2}
+            url={selectedProject.url}
+            gitUrl={selectedProject.gitUrl}
+          />
         </div>
         {/* Project Names */}
-        <div className="">
+        <div className="flex-1">
           {projectCards.map((project) => (
-            <div key={project.name} onClick={() => handleProjectClick(project)}>
-              <h3 className="font-e text-6xl cursor-pointer">{project.name}</h3>
+            <div
+              key={project.name}
+              onClick={() => handleProjectClick(project.name)}
+            >
+              <h3 className="font-e text-6xl cursor-pointer py-4 text-center">
+                {project.name}
+              </h3>
             </div>
           ))}
         </div>
       </div>
 
-
-      <div className="flex flex-col justify-center items-center py-4">
+      {/* <div className="flex flex-col justify-center items-center py-4">
         <section className={``}>
           <div className={`w-full py-[20px] px-4`}>
             <div className="max-w-[1240px] mx-auto grid md:grid-cols-2 gap-20 ">
@@ -82,7 +96,7 @@ const Projects = () => {
             </div>
           </div>
         </section>
-      </div>
+      </div> */}
     </div>
   );
 };

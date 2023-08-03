@@ -123,14 +123,16 @@ export const experienceCards = [
 export const projectCards = [
   {
     image: "/assets/p1.svg",
+    image2: "/assets/p1.svg",
     video: "/assets/ecell.jpg",
     name: "Drop V2.0",
     url: "",
     gitUrl: "",
-    desc: "Drop V2.0 is a blogging project, serving as a CRUD application, enabling users to effortlessly create, update, and delete personal blogs. Leveraged MongoDB, ExpressJs, React, and NodeJs for scalability and a seamless user experience. Deployed on GitHub pages via GitHub Actions.",
+    desc: "Drop is a blogging project, serving as a CRUD application, enabling users to effortlessly create, update, and delete personal blogs. Leveraged MongoDB, ExpressJs, React, and NodeJs for scalability and a seamless user experience. Deployed on GitHub pages via GitHub Actions.",
   },
   {
     image: "/assets/p2.svg",
+    image2: "/assets/p2.svg",
     video: "",
     name: "Guardian",
     url: "",
@@ -139,6 +141,7 @@ export const projectCards = [
   },
   {
     image: "/assets/p3.svg",
+    image2: "/assets/p3.svg",
     video: "",
     name: "anee.",
     url: "",
@@ -147,6 +150,7 @@ export const projectCards = [
   },
   {
     image: "/assets/p4.svg",
+    image2: "/assets/p4.svg",
     video: "",
     name: "Coming Soon",
     url: "",
