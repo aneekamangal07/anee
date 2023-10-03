@@ -50,7 +50,7 @@ const Projects = () => {
           whileInView={{ opacity: 1 }}
           transition={{ duration: 1 }}
         >
-          Projects I made 
+          Projects I made
         </motion.p>
       </div>
       {/* Projects */}
@@ -63,7 +63,9 @@ const Projects = () => {
         <div className="mx-[20px] flex-2">
           <Project2
             name={selectedProject.name}
-            desc={selectedProject.desc}
+            desc1={selectedProject.desc1}
+            desc2={selectedProject.desc2}
+            desc3={selectedProject.desc3}
             image2={selectedProject.image2}
             url={selectedProject.url}
             gitUrl={selectedProject.gitUrl}

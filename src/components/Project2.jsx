@@ -2,7 +2,16 @@ import React from "react";
 import { Github, Paperclip } from "lucide-react";
 import { motion } from "framer-motion";
 
-const Project2 = ({ name, desc, image2, video, url, gitUrl }) => {
+const Project2 = ({
+  name,
+  desc1,
+  desc2,
+  desc3,
+  image2,
+  video,
+  url,
+  gitUrl,
+}) => {
   return (
     <div className="">
       <motion.section
@@ -16,14 +25,17 @@ const Project2 = ({ name, desc, image2, video, url, gitUrl }) => {
           alt={name}
           className="w-[300px] h-[480px] object-cover rounded-l-lg"
         />
-        <div className="m-auto font-c font-thin">
-          <h2 className="text-white text-center font-medium text-[23px]">
+        <div className="m-auto font-c text-center font-thin">
+          <h2 className="text-white  font-medium uppercase text-[25px]">
             {name}
           </h2>
-          <p className="text-white p-8 pt-2 text-justify text-[12px] py-6">
-            {desc}
-          </p>
-          <div className="text-white px-8 pb-4 flex space-x-12">
+          <div className="text-white p-8 pt-2 text-justify text-[14px] py-6">
+            <p className="pb-4">{desc1}</p>
+            <p className="pb-4">{desc2}</p>
+            <p className="pb-4">{desc3}</p>
+          </div>
+
+          <div className="text-white px-8 pb-4 flex space-x-12 font-medium">
             <div className="flex space-x-2 ">
               <Github className="h-[14px] w-[14px] m-1" />
               <a href={url} className="">

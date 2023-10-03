@@ -121,40 +121,51 @@ export const experienceCards = [
 ];
 
 export const projectCards = [
-  {
-    image: "/assets/p1.svg",
-    image2: "/assets/p1.svg",
-    video: "/assets/ecell.jpg",
-    name: "Drop V2.0",
-    url: "",
-    gitUrl: "",
-    desc: "Drop is a blogging project, serving as a CRUD application, enabling users to effortlessly create, update, and delete personal blogs. Leveraged MongoDB, ExpressJs, React, and NodeJs for scalability and a seamless user experience. Deployed on GitHub pages via GitHub Actions.",
-  },
+  
   {
     image: "/assets/p2.svg",
     image2: "/assets/p2.svg",
     video: "",
     name: "Guardian",
-    url: "",
-    gitUrl: "",
-    desc: "",
+    url: "https://www.guardianiiitm.ninja/",
+    gitUrl: "https://github.com/ishtails/guardian-client",
+    desc1:
+      "Guardian is a comprehensive Gate Security WebApp designed to digitize and optimize the management of student entry and exit processes at a gated location.",
+    desc2:
+      "Leveraged MongoDB, ExpressJs, ReactJs, Typescript, and NodeJs, Tailwind CSS for scalability and a seamless user experience. Redis is used for caching.",
+    desc3:
+      "Deployed on GitHub pages via GitHub Actions.",
   },
   {
     image: "/assets/p3.svg",
     image2: "/assets/p3.svg",
     video: "",
-    name: "anee.",
-    url: "",
-    gitUrl: "",
+    name: "anee",
+    url: "https://anee.vercel.app/",
+    gitUrl: "https://github.com/aneekamangal07/anee",
     desc: "",
   },
   {
     image: "/assets/p4.svg",
     image2: "/assets/p4.svg",
     video: "",
-    name: "Coming Soon",
+    name: "echo",
     url: "",
-    gitUrl: "",
+    gitUrl: "https://github.com/aneekamangal07/echo-client",
     desc: "",
+  },
+  {
+    image: "/assets/p1.svg",
+    image2: "/assets/p1.svg",
+    video: "/assets/ecell.jpg",
+    name: "Drop",
+    url: "",
+    gitUrl: "https://github.com/aneekamangal07/DROP_V2.0",
+    desc1:
+      "Drop is a blogging project, serving as a CRUD application, enabling users to effortlessly create, update, and delete personal blogs.",
+    desc2:
+      "Leveraged MongoDB, ExpressJs, React, and NodeJs for scalability and a seamless user experience.",
+    desc3:
+      "Deployed on GitHub pages via GitHub Actions.",
   },
 ];
