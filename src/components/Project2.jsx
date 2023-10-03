@@ -38,13 +38,13 @@ const Project2 = ({
           <div className="text-white px-8 pb-4 flex space-x-12 font-medium">
             <div className="flex space-x-2 ">
               <Github className="h-[14px] w-[14px] m-1" />
-              <a href={url} className="">
+              <a href={gitUrl} className="">
                 View Code
               </a>
             </div>
             <div className="flex space-x-2">
               <Paperclip className="h-[14px] w-[14px] m-1" />
-              <a href={gitUrl}>Live Preview</a>
+              <a href={url}>Live Preview</a>
             </div>
           </div>
         </div>
