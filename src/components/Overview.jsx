@@ -1,10 +1,11 @@
 import React from "react";
 import anee from "../images/anee.jpg";
 import { motion } from "framer-motion";
+import shine from "../images/scribbles/shine.svg";
 
 const Overview = () => {
   return (
-    <div className="section bg-[#ECB6C1] lg:h-[80vh] sm:h-[40vh]">
+    <div className="bg-[#ECB6C1] h-auto">
       <div class="custom-shape-divider-top-1689796382">
         <svg
           data-name="Layer 1"
@@ -19,11 +20,19 @@ const Overview = () => {
           ></path>
         </svg>
       </div>
-      <div className="w-full h-screen flex items-center px-4 text-right">
-        <div className="grid md:grid-cols-2 sm:gap-x-12 absolute px-8">
+      <motion.img
+        whileHover={{ scale: 1.1 }}
+        whileTap={{ scale: 0.9 }}
+        transition={{ duration: 0.3 }}
+        src={shine}
+        alt=""
+        className="absolute left-[5%]"
+      />
+      <div className="h-screen flex items-center lg:text-right sm:text-center">
+        <div className="grid lg:grid-cols-2 absolute px-8">
           <div className="mx-auto">
             <motion.img
-              className="lg:w-[300px] my-4 rounded-[50%]"
+              className="rounded-[50%]"
               src={anee}
               alt=""
               animate={{ y: "0vw", opacity: 1 }}
@@ -32,7 +41,7 @@ const Overview = () => {
               transition={{ type: "spring", stiffness: 10 }}
             />
           </div>
-          <div className="flex flex-col tracking-wider text-[#865515] items-center justify-center text-7xl sm:text-5xl font-c font-bold lg:pr-40">
+          <div className="flex flex-col tracking-wider text-[#865515] items-center justify-center lg:text-6xl sm:text-5xl font-c font-bold lg:pr-40">
             <p>I AM ANEEKA MANGAL.</p>
             <p>I AM A FULL STACK WEB DEVELOPER.</p>
             <p>I LOVE PROGRAMMING.</p>

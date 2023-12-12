@@ -40,7 +40,7 @@ const Projects = () => {
           transition={{ duration: 0.3 }}
           src={bubbles}
           alt=""
-          className="absolute lg:left-80 sm:left-16"
+          className="absolute left-[5%]"
         />
         <motion.p
           initial={{ opacity: 0 }}

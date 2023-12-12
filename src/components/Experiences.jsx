@@ -40,7 +40,7 @@ const Experiences = () => {
           transition={{ duration: 0.3 }}
           src={saturn}
           alt=""
-          className="absolute left-[120px]"
+          className="absolute left-[5%]"
         />
         <motion.p
           initial={{ opacity: 0 }}
@@ -52,17 +52,15 @@ const Experiences = () => {
         </motion.p>
       </div>
       <div>
-        {/* <section className={`flex flex-col  `}> */}
-          <div className={`py-[20px] px-4 flex justify-center items-center`}>
-            <div className="lg:grid lg:grid-cols-3 gap-8">
-              {experienceCards.map((card) => (
-                <div key={card.name} className="px-4 ">
-                  <Experience {...card} />
-                </div>
-              ))}
-            </div>
+        <div className={`py-[20px] px-4 flex justify-center items-center`}>
+          <div className="lg:grid lg:grid-cols-3 gap-8">
+            {experienceCards.map((card) => (
+              <div key={card.name} className="px-4 ">
+                <Experience {...card} />
+              </div>
+            ))}
           </div>
-        {/* </section> */}
+        </div>
       </div>
     </div>
   );
