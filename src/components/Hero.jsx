@@ -14,7 +14,6 @@ const Hero = () => {
           alt=""
           className="absolute top-[4vh] right-[280px]"
         />
-        {/* <img src={shine} alt="" className="absolute top-[44vh] left-[280px]" /> */}
         <div className="absolute ">
           <img
             src={herobg}

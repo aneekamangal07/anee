@@ -18,7 +18,7 @@ const Projects = () => {
   );
 
   return (
-    <div className="section bg-[#1a202c] lg:h-[100vh] sm:h-[65vh]">
+    <div className="section bg-[#1a202c] h-auto">
       <div class="custom-shape-divider-top-1689796911">
         <svg
           data-name="Layer 1"

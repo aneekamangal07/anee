@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 
 const Experiences = () => {
   return (
-    <div className="section bg-[#C77EEA] w-full lg:h-[110vh] sm:h-[85vh]">
+    <div className="section bg-[#C77EEA] w-full h-auto">
       <div class="custom-shape-divider-top-1689795155">
         <svg
           data-name="Layer 1"

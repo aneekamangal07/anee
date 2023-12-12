@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 
 const Contact = () => {
   return (
-    <div className="lg:h-[100vh]">
+    <div className="h-auto">
       <div class="custom-shape-divider-top-1689796117">
         <svg
           data-name="Layer 1"

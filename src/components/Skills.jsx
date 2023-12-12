@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 const Skills = () => {
   const [currSkill, setCurrSkill] = useState("");
   return (
-    <div className="section bg-[#E58FD6] lg:h-[110vh] sm:h-[45vh]">
+    <div className="section bg-[#E58FD6] h-auto">
       <div class="custom-shape-divider-top-1689795014">
         <svg
           data-name="Layer 1"
