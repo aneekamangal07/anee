@@ -29,7 +29,7 @@ const Contact = () => {
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           transition={{ duration: 1 }}
-          className="text-[#cdcdcd] font-e font-bold tracking-widest text-center md:text-7xl sm:text-5xl text-2xl"
+          className="text-[#cdcdcd] font-c font-bold tracking-widest text-center md:text-7xl sm:text-5xl text-2xl"
         >
           Let's Talk!
         </motion.p>
@@ -43,7 +43,7 @@ const Contact = () => {
               <SiGmail size={"100px"} />
             </a>
             {/* <h1 className="p-4">LET'S TALK!</h1> */}
-            <h2 className="font-bold ">aneekamangal@gmail.com</h2>
+            <h2 className="font-bold font-c">aneekamangal@gmail.com</h2>
           </div>
           <div className="flex align-center justify-center lg:py-4">
             {/* socials */}
