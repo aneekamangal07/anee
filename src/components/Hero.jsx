@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import star from "../images/scribbles/star.svg";
 const Hero = () => {
   return (
-    <div className="section lg:h-[100vh] sm:h-[70vh]">
+    <div className="section lg:h-[90vh] sm:h-[60vh]">
       <div className="text-[#f5efff] flex h-screen justify-center items-center">
         <motion.img
           whileHover={{ scale: 1.1 }}

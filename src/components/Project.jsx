@@ -1,27 +1,52 @@
 import React from "react";
+import { Github, Paperclip } from "lucide-react";
 import { motion } from "framer-motion";
 
-const Project = ({ name, image}) => {
+const Project = ({
+  name,
+  desc1,
+  desc2,
+  desc3,
+  image2,
+  video,
+  url,
+  gitUrl,
+}) => {
   return (
-    <div className="rounded-lg">
+    <div className="flex items-center justify-center sm:pb-8">
       <motion.section
-        whileHover={{ scale: 1.05 }}
-        whileTap={{ scale: 0.9 }}
-        transition={{ duration: 0.3 }}
-        className="bg-[#303030] w-[300px] h-[300px] object-fill shadow-xl flex flex-col rounded-lg "
+        // whileHover={{ scale: 1.05 }}
+        // whileTap={{ scale: 0.9 }}
+        // transition={{ duration: 0.3 }}
+        className="lg:flex bg-[#303030] w-[70%] h-[70%] object-fill rounded-[5%] "
       >
         <img
-          src={image}
+          src={image2}
           alt={name}
-          className="w-[380px] h-[230px] object-cover rounded-t-lg text-white"
+          className="lg:w-[400px] lg:h-[400px] sm:w-full object-cover rounded-l-[5%]"
         />
-        <div className=" m-auto flex-2 font-c font-thin">
-          <h2 className="text-white text-center font-medium text-[23px]">
+        <div className="m-auto font-c text-center font-thin p-4">
+          <h2 className="text-white font-medium uppercase text-[25px]">
             {name}
           </h2>
-          <p className="text-white p-8 pt-2 text-justify text-[12px] py-6">
-            small description
-          </p>
+          <div className="text-white p-8 pt-2 text-justify text-[14px] py-6">
+            <p className="pb-4">{desc1}</p>
+            <p className="pb-4">{desc2}</p>
+            <p className="pb-4">{desc3}</p>
+          </div>
+
+          <div className="text-white px-8 pb-4 flex space-x-12 font-medium">
+            <div className="flex space-x-2 ">
+              <Github className="h-[14px] w-[14px] m-1" />
+              <a href={gitUrl} className="">
+                View Code
+              </a>
+            </div>
+            <div className="flex space-x-2">
+              <Paperclip className="h-[14px] w-[14px] m-1" />
+              <a href={url}>Live Preview</a>
+            </div>
+          </div>
         </div>
       </motion.section>
     </div>
