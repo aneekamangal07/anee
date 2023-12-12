@@ -34,14 +34,14 @@ const Projects = () => {
         </svg>
       </div>
       <div className="text-[#cdcdcd] font-c font-bold tracking-widest text-center md:text-7xl sm:text-5xl py-8">
-        <motion.img
+        {/* <motion.img
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.9 }}
           transition={{ duration: 0.3 }}
           src={bubbles}
           alt=""
           className="absolute left-[5%]"
-        />
+        /> */}
         <motion.p
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
@@ -50,13 +50,7 @@ const Projects = () => {
           Projects I made
         </motion.p>
       </div>
-      {/* Projects */}
       <div className="lg:flex p-6">
-        {/* Small Card
-        <div className="flex-1 hidden">
-          <Project name={selectedProject.name} image={selectedProject.image} />
-        </div> */}
-        {/* Big Card */}
         <div className="flex-2">
           <Project
             name={selectedProject.name}
@@ -68,7 +62,6 @@ const Projects = () => {
             gitUrl={selectedProject.gitUrl}
           />
         </div>
-        {/* Project Names */}
         <div className="flex-1 p-4 ">
           {projectCards.map((project) => (
             <div

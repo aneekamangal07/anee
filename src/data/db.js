@@ -143,9 +143,9 @@ export const projectCards = [
     name: "anee",
     url: "https://anee.vercel.app/",
     gitUrl: "https://github.com/aneekamangal07/anee",
-    desc1: "A personal portfolio website",
-    desc3:
-      "",
+    desc1: "A personal portfolio website.",
+    desc2:
+      "Made using React.Js, Tailwind CSS, Framer Motion",
     desc3:
       "Deployed on GitHub pages via GitHub Actions.",
   },
