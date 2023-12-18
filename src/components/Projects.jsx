@@ -68,9 +68,18 @@ const Projects = () => {
               key={project.name}
               onClick={() => handleProjectClick(project.name)}
             >
-              <h3 className="font-c text-6xl cursor-pointer lg:py-4 text-center text-[#cdcdcd]">
+              <motion.h3
+                className="font-c text-6xl cursor-pointer lg:py-4 text-center text-[#cdcdcd]"
+                initial={{ x: 100 }}
+                whileInView={{ x: 0 }}
+                transition={{ type: "spring", stiffness: 100 }}
+                whileHover={{
+                  scale: 1.1,
+                  transition: { duration: 1 },
+                }}
+              >
                 {project.name}
-              </h3>
+              </motion.h3>
             </div>
           ))}
         </div>

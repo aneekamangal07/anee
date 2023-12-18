@@ -46,7 +46,7 @@ const Experiences = () => {
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           transition={{ duration: 1 }}
-          className="font-c font-bold tracking-widest text-center md:text-7xl sm:text-5xl text-2xl"
+          className="font-c font-bold tracking-widest text-center md:text-7xl sm:text-5xl text-2xl "
         >
           Experience
         </motion.p>

@@ -29,7 +29,7 @@ const Overview = () => {
         className="absolute left-[5%]"
       />
       <div className="h-screen flex items-center lg:text-right sm:text-center">
-        <div className="grid lg:grid-cols-2 absolute px-8">
+        <div className="grid lg:grid-cols-2 absolute ">
           <div className="mx-auto">
             <motion.img
               className="rounded-[50%]"
@@ -39,12 +39,35 @@ const Overview = () => {
               initial={{ y: "-2vw" }}
               whileInView={{ y: "-2vw" }}
               transition={{ type: "spring", stiffness: 10 }}
+              whileHover={{
+                scale: 1.1,
+                transition: { duration: 1 },
+              }}
             />
           </div>
           <div className="flex flex-col tracking-wider text-[#865515] items-center justify-center lg:text-6xl sm:text-5xl font-c font-bold lg:pr-40">
-            <p>I AM ANEEKA MANGAL.</p>
-            <p>I AM A FULL STACK WEB DEVELOPER.</p>
-            <p>I LOVE PROGRAMMING.</p>
+            <motion.p
+              initial={{ x: 100 }}
+              whileInView={{ x: 0 }}
+              transition={{ type: "spring", stiffness: 100 }}
+            >
+              I AM ANEEKA MANGAL.
+            </motion.p>
+            <motion.p
+              className="text-[#ad7a37]"
+              initial={{ x: 100 }}
+              whileInView={{ x: 0 }}
+              transition={{ type: "spring", stiffness: 100 }}
+            >
+              I AM A FULL STACK WEB DEVELOPER.
+            </motion.p>
+            <motion.p
+              initial={{ x: 100 }}
+              whileInView={{ x: 0 }}
+              transition={{ type: "spring", stiffness: 100 }}
+            >
+              I LOVE PROGRAMMING.
+            </motion.p>
           </div>
         </div>
       </div>

@@ -56,7 +56,7 @@ const Skills = () => {
       <div>
         <section className={`flex flex-col justify-center items-center`}>
           <div className={`flex flex-col`}>
-            <div className="bg-black p-4 flex flex-row flex-wrap justify-center p-60px">
+            <div className="bg-[#1a202c] p-4 flex flex-row flex-wrap justify-center p-60px">
               {icons.map((icon) => (
                 <div
                   key={icon.skillName}

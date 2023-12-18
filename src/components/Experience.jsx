@@ -19,7 +19,7 @@ const Experience = ({ name, position, logo, tenure, overview }) => {
             {position}
           </h2>
           <h2 className="text-white text-center text-[10px] ">{tenure}</h2>
-          <p className="text-white text-justify text-xl py-6">{overview}</p>
+          <p className=" text-justify text-xl py-6">{overview}</p>
         </div>
       </motion.section>
     </div>
